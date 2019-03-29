@@ -19,5 +19,14 @@ Since a building always has an ordered number of floors, go to the middle floor 
 know f is in the bottom half of the floors. So we divide the bottom half and throw the egg. Repeat until we have f. 
 
 
-while 
+func findF(floors):
+    n = floors
+    f = 0
+    while f = 0:
+        middle = n.count / 2
+        if !throwEgg(middle):
+            n = middle
+        else:
+            f = middle
     
+    return f       
